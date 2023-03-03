@@ -1,3 +1,3 @@
 # CSS-Gradient-Generator
 
-URL: https://css-gradient-generator-999.netlify.app/
+Click [here](https://css-gradient-generator-999.netlify.app/) to check the deployed app.
