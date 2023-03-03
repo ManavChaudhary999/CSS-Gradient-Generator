@@ -1,0 +1,48 @@
+.codeSnippet {
+	/* height: 100px; */
+	background-color: var(--syntax-bg);
+	max-width: 100%;
+	border-radius: 6px;
+}
+
+.textarea {
+	position: relative;
+    text-align: left;
+    padding: 20px;
+    overflow: hidden;
+    white-space: pre;
+    color: var(--syntax-txt);
+    background-color: transparent;
+	font-size: 1.25rem;
+}
+
+.tokenLine {
+	color: var(--syntax-txt);
+    margin-left: 25px;
+	margin-top: 10px;
+    font-family: var(--font-family-mono);
+}
+
+.tokenLine:first-of-type {
+	margin: 0;
+}
+.tokenLine:last-of-type {
+	margin-left: 0;
+}
+
+.symbol {
+	margin-left: 5px;
+}
+
+.function {
+	color: var(--syntax-fn);
+	margin-right: 5px;
+}
+
+.value {
+	display: inline-block;
+	margin-right: 12px;
+}
+.value > span:first-child {
+	color: var(--syntax-bool);
+}

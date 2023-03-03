@@ -1,0 +1,39 @@
+.angleSlider {
+	position: relative;
+	width: 80%;
+	aspect-ratio: 1/1;
+	border: 3px solid var(--color-gray-600);
+	border-radius: 50%;
+	overflow: hidden;
+}
+.lineX, .lineY, .lineSlider, .circle {
+	position: absolute;
+	width: 100%;
+	border: 1px solid var(--color-gray-200);
+	top: 50%;
+}
+.lineY {
+	transform: rotateZ(90deg);
+}
+.lineSlider {
+	background-color: var(--color-gray-900);
+	border-radius: 10px;
+	height: 7px;
+	width: 46%;
+	top: 50%;
+	left: 50%;
+	transform: rotateZ(315deg);
+	transform-origin: left;
+}
+.circle {
+	background-color: var(--color-gray-200);
+	width: 10%;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+	top: 46%;
+	left: 45%;
+}
+
+.lineSlider:hover {
+	background-color: white;
+}
